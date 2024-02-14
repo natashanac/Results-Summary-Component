@@ -1,0 +1,195 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 0;
+ background-color: white;
+ border-radius: 40px;
+}
+
+.blue {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-radius: 40px;
+    padding: 10px 50px;
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.big-number {
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.small-number {
+    margin-top: 0;
+    color: rgba(245, 245, 245, 0.396);
+}
+
+h2 {
+font-weight: 400;
+margin-bottom: 0;
+}
+
+.white {
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px 50px;
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+h3 {
+    margin-right: 150px;
+    
+}
+
+.chart {
+    
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color: aqua;
+    color: black;
+    font-weight: 500;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin: 10px 0;
+}
+
+#red {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.064);
+    
+}
+
+#yellow {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.081);
+}
+
+#green {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.088);
+}
+
+#blue {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.052);
+}
+
+.inside-div {
+    display: flex;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.darkgray {
+    color: rgba(46, 46, 46, 0.987);
+    font-weight: 600;
+}
+
+.lightgray {
+    color: rgba(128, 128, 128, 0.631);
+}
+
+.gray {
+    color: rgba(245, 225, 225, 0.647);
+}
+
+button {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+    
+body {
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    margin: 0px;
+}
+
+.blue {
+    width: 365px;
+    padding: 10px;
+    border-radius: 0 0 40px 40px;
+}
+
+.white {
+    width: 365px;
+    padding: 10px;
+    border-radius: 0 ;
+}
+
+.chart {
+    width:  80% ;
+}
+
+button {
+    width: 90%;
+}
+
+.paragraph {
+    padding: 0 30px;
+}
+
+}
